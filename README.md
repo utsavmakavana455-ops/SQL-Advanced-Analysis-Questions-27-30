@@ -45,19 +45,6 @@ This section focuses on:
 * MySQL Workbench
 * SQL
 
-## 📁 Repository Structure
-
-```text
-SQL-Advanced-Analysis/
-│
-├── README.md
-├── data/
-│   └── orders_100_rows.sql
-│
-└── queries/
-    └── sql_questions_27_30.sql
-```
-
 ## 🚀 Learning Outcome
 
 Through Questions 27–30, I strengthened my ability to analyze customer behavior, product performance, and sales trends using SQL.
