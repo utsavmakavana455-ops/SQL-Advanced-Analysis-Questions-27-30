@@ -19,7 +19,8 @@ Calculate total monthly sales and the difference between each month and the prev
 */
 
 
-# 27. Highest order for each customer
+#Highest order for each customer
+    
 SELECT
     customer_name,
     MAX(amount) AS highest_order
@@ -27,7 +28,8 @@ FROM orders
 GROUP BY customer_name
 ORDER BY highest_order DESC;
 
-# 28. Customers with above-average order value
+#Customers with above-average order value
+    
 SELECT
     customer_name,
     ROUND(AVG(amount), 2) AS customer_avg_order
@@ -40,6 +42,8 @@ HAVING AVG(amount) > (
 ORDER BY customer_avg_order DESC;
 
 #29. Most popular product by quantity
+
+    
 SELECT
     product,
     SUM(quantity) AS total_quantity_sold
